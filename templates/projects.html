@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About Me</a></li>
+                <li><a href="/projects">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="projects">
+        <h2>My Projects</h2>
+
+        <h3>1. Hotel Management System</h3>
+        <p>
+            A Java-based desktop application that manages hotel bookings, check-ins, and billing operations. 
+            It connects seamlessly with a SQL database using JDBC for real-time data access and updates. 
+            This project helped me understand database integration and object-oriented programming in depth.
+            <br><em>Tech Stack:</em> Java, JDBC, MySQL
+        </p>
+
+        <h3>2. SentinelChain</h3>
+        <p>
+            An AI-powered threat detection system integrated with blockchain to ensure decentralized, tamper-proof cyber threat intelligence.
+            SentinelChain uses machine learning models to identify potential cybersecurity risks and records them immutably on a local blockchain for transparency and traceability.
+            <br><em>Tech Stack:</em> Python (ML), Solidity, Hardhat, JavaScript
+        </p>
+
+        <h3>3. Skills Sync</h3>
+        <p>
+            A smart job discovery platform that analyzes user resumes and matches them with suitable job opportunities based on skills, decency filters, and location preferences. 
+            The platform aims to enhance job relevance and reduce application mismatches using simple filtering and logic-based analysis.
+            <br><em>Tech Stack:</em> HTML, CSS, JavaScript, Python
+        </p>
+
+        <h3>4. Real-Time News Aggregator</h3>
+        <p>
+            A web app that fetches and displays real-time news from multiple sources using public APIs. 
+            Users can filter by category (like technology, health, business) and stay updated on global events.
+            <br><em>Tech Stack:</em> JavaScript, NewsAPI, React, Tailwind CSS
+        </p>
+
+        <h3>5. AI Chatbot using LLaMA and Streamlit</h3>
+        <p>
+            A local chatbot interface powered by Meta’s LLaMA model, deployed using Streamlit for an interactive frontend. 
+            The bot can handle general queries and showcases the use of lightweight, local language models for conversational AI. 
+            This project helped me explore large language models outside of cloud-based APIs.
+            <br><em>Tech Stack:</em> Python, LLaMA, Streamlit
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Mudasira Sultana. All rights reserved</p>
+    </footer>
+</body>
+</html>
